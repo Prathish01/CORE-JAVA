@@ -1,2 +1,0 @@
-# CORE-JAVA
-Java Programs
