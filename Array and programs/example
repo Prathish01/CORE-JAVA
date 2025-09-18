@@ -1,0 +1,23 @@
+import java.util.Scanner;; 
+public class text { 
+    public static void main(String[] args) { 
+        Scanner scn =new Scanner(System.in); 
+        System.out.println("enter a size"); 
+        int size=scn.nextInt(); 
+        int[] a1= new int[size]; 
+        System.out.println("enter the values"); 
+        for(int i=0; i <=a1.length-1; i++) 
+        { 
+            a1[i]=scn.nextInt(); 
+        } 
+        System.out.println("---result---"); 
+        int sum=0; 
+        for(int i=0; i <=a1.length-1; i++) 
+        { 
+            if (a1[i]%2!=0) { 
+               sum=sum+a1[i]; 
+            } 
+        } 
+        System.out.println("sum of odd number in the array :"+sum); 
+    } 
+}
