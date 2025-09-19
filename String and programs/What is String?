@@ -1,0 +1,18 @@
+WHAT IS STRING AND TYPES OF STRING ?
+
+Anything represent in “  ”  (double quotes) is called as String. 
+• With respect to java string is a inbuild class which is present in java 
+library. 
+• The string class contains inbuild methods using which we can perform 
+operations on string value. 
+• The string class methods can be used only on string value. 
+• Some of the inbuild methods of string class are, 
+1. int length () 
+2. char charAt(int index) 
+3. String toLowercase () 
+4. String toUppercase () 
+5. boolean equals (String s) 
+6. String concat(String s) 
+7. boolean startsWith (String s) 
+8. boolean endsWith (String s) 
+9. boolean equalsIgnorecase (String s) 
