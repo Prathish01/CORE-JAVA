@@ -1,0 +1,58 @@
+6, WHAT IS OPERATOR ? LIST OUT ALL THE OPERATORS ?
+
+• Operators are the symbols which are used to perform some operation on value. 
+• The values on which we perform the operation are technically called operands. 
+Ex: 100+200 = 300     
+( ‘+’ is operator, 100,200 is operands ). 
+
+In java operators are classified into, 
+a. Arithmetic operators (+, -, *, /, % ) 
+b. Relational operators (>, <, >=, <=, ==, != ) 
+c. Logical operator (&&, ||, ! ) 
+d. Unary operator (++, -- ) 
+e. Bitwise operator (&, | ) 
+f. Shift operator (>>, << )
+--------------------------------------------------------------------------------------
+7, DIFFERENCE BETWEEN = AND == ?. 
+
+= (EQUAL TO)                                  |    == (EQUAL TO EQUAL TO) 
+                                              |
+• It is assignment operator                   |  • It is relational operator 
+• It is used to assign values to variables    |  • It is used to compare 2 values 
+• It will assign RHS value to LHS variables   |  • It will compare RHS value to LHS value 
+• Ex: int a = 10;                             |  • Ex: System.out.println(10==10); //true 
+                                              |        System.out.println(10==12); //false.
+--------------------------------------------------------------------------------------------
+8, WHEN TO USE FOR LOOP ? / WHILE LOOP ? 
+
+o As per the IT standards whenever we know the number of iteration then 
+we should make use of for loop, if we don’t know the number of 
+iteration then we should make use of while loop. 
+o Ex: 
+▪ for loop: print even number between 1 to 100. 
+▪ while loop: print digit by digit for a given number. 
+o For range related problem for loop is recommended because for loop will consume less memory and cpu time when compare to while loop. 
+-----------------------------------------------------------------------------------------------------------------------------------------
+9, DIFFERENCE BETWEEN WHILE AND DO-WHILE LOOP ? 
+
+WHILE LOOP                                                        |            DO-WHILE LOOP 
+                                                                  |
+• It is also called entry check loop                              |  • It is also called exit check loop 
+• It will first check the condition then perform the task         |  • It will first perform the task then check the condition 
+• It will not execute even once if the initial condition is false.|  • It will execute at least once even the initial condition is false.  
+• Syntax:                                                         |
+while(condition) { ----- }                                        |   • Syntax: do{ -----} while(condition); 
+• Ex:                                                             |   • Ex: 
+Int i=1;                                                          |         Int i=1;  
+while(i>=5) {                                                     |         do { 
+Sop(“hii”)                                                        |         Sop(“hii”) 
+i++; }                                                            |             i++; 
+Output:                                                           |            } while(i>=5); 
+No output                                                         |               Output: 
+                                                                  |                 hii 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+10, WHAT IS INFINITE LOOP ? 
+
+A loop which will never terminate or a loop whose condition will never 
+become false is technically called infinite loop.
+--------------------------------------------------------------------------------------------------------------------------------------------------
