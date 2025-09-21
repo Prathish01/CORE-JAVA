@@ -1,0 +1,80 @@
+11, WHAT IS A METHOD? SYNTAX FOR CREATING A METHOD. 
+• Methods are named block of code which are reusable in nature. 
+                       (Or)  
+• Method is a named block of code which is used to perform some specific tasks. 
+• Every method will have 2 parts. 
+▪ Method declaration.                              
+▪ Method definition. 
+
+Syntax for creating a method: 
+
+// method declaration 
+<access modifier> <modifier> <return type> methodname(arguments) 
+{ 
+}
+
+// method definition 
+<access modifier> → public, private, default, protected. 
+<modifier> → static, abstract, final, synchronized…. 
+<return type> → void, int, double, char, boolean, String, …. 
+Methodname → as per programmer choice. 
+------------------------------------------------------------------------------------------------
+12, WHAT IS PASSING VALUE ? 
+
+• Passing values is the concept of sending values from calling method  to called method. 
+• We can pass multiple values to method. 
+• When passing multiple value to a method the values should be separated by “ , ”(comma). 
+Ex: 
+Class A 
+{ 
+Public static void main (String [] arg) 
+{ 
+Sop(“hi main”); 
+M1(10.1,true); 
+Sop(“bye main”); 
+} 
+Public static void m1 (double a, double b) 
+{ 
+Sop(“hii m1”); 
+Sop(a); 
+Sop(b); 
+} 
+}
+
+Output: 
+Hi main 
+Hi m1 
+10.1 
+True 
+Bye main
+------------------------------------------------------------------------------------------------------
+13, WHAT IS RETURNING VALUE ? 
+
+• Returning value is the concept of sending values from called method to calling method. 
+• We can return a value by using return keyword. 
+• Whenever a method is returning some value, 
+o It returns type of the method should be changed based on the type of value it is returning. 
+o Collect the value in the calling method (main method). 
+• A method can accept any number of values but it can return only one value. 
+Ex: 
+Class A 
+{ 
+Public static void main (String [] arg) 
+{ 
+Sop(“hi main”); 
+Int x = m1(); 
+Sop(x); 
+Sop(“bye main”); 
+} 
+Public static int m1 () 
+{ 
+Sop(“hii m1”); 
+return 100; 
+} 
+} 
+Output: 
+Hi main 
+Hi m1 
+100 
+Bye main
+------------------------------------------------------------------------------------------------------------
