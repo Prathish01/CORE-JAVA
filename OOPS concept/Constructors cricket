@@ -1,0 +1,46 @@
+class cricket
+{
+	String TEAM;
+	int MP;
+	int WON;
+	int LOST;  
+	int POINTS;
+	public cricket(String TEAM,int MP,int WON,int LOST,int POINTS)
+	{
+		this.TEAM=TEAM;
+		this.MP=MP;
+		this.WON=WON;
+		this.LOST=LOST;
+        this.POINTS=POINTS;
+	}
+}
+class mainofcricket
+{
+	public static void main (String []args)
+	{
+	cricket c1=new cricket("MUMBAI INDIANS",10,8,2,16);
+	cricket c2=new cricket("CHENNAI SUPERKINGS",10,7,3,14);
+	cricket c3=new cricket("PUNJAB KINGS XI",10,6,4,12);
+	cricket c4=new cricket("ROYAL CHALLENGERS BANGALORE",10,5,5,10);
+	cricket c5=new cricket("GUJARAT TITANS",10,5,5,10);
+	cricket c6=new cricket("SUNRISES HYDREBAD",10,5,5,10);
+	cricket c7=new cricket("LUCKNOW SUPERGAINTS",10,4,6,8);
+	cricket c8=new cricket("KOLKATA KNIGHTRIDERS",10,3,7,6);
+	cricket c9=new cricket("DELHI CAPITALS",10,3,7,6);
+	cricket c10=new cricket("RAJASTAN ROYALS",10,2,8,4);
+	System.out.println("TEAM\t\t\t\t MP\t\t WON\t\t\t LOST\t\t POINTS\t\t");
+	System.out.println("----------------------------------------------------------------------------------------------");
+    System.out.println( c1.TEAM+"\t\t\t"+c1.MP+"\t\t"+c1.WON+" \t\t\t"+ c1.LOST+"\t\t"+c1.POINTS);
+	System.out.println( c2.TEAM+"\t\t"+c2.MP+"\t\t"+c2.WON+" \t\t\t"+ c2.LOST+"\t\t"+c2.POINTS);
+	System.out.println( c3.TEAM+"\t\t\t"+c3.MP+"\t\t"+c3.WON+" \t\t\t"+ c3.LOST+"\t\t"+c3.POINTS);
+	System.out.println( c4.TEAM+"\t"+c4.MP+"\t\t"+c4.WON+" \t\t\t"+ c4.LOST+"\t\t"+c4.POINTS);
+	System.out.println("----------------------------------------------------------------------------------------------");
+	System.out.println( c5.TEAM+"\t\t\t"+c5.MP+"\t\t"+c5.WON+" \t\t\t"+ c5.LOST+"\t\t"+c5.POINTS);
+	System.out.println( c6.TEAM+"\t\t"+c6.MP+"\t\t"+c6.WON+" \t\t\t"+ c6.LOST+"\t\t"+c6.POINTS);
+	System.out.println( c7.TEAM+"\t\t"+c7.MP+"\t\t"+c7.WON+" \t\t\t"+ c7.LOST+"\t\t"+c7.POINTS);
+    System.out.println( c8.TEAM+"\t\t"+c8.MP+"\t\t"+c8.WON+" \t\t\t"+ c8.LOST+"\t\t"+c8.POINTS);
+	System.out.println( c9.TEAM+"\t\t\t"+c9.MP+"\t\t"+c9.WON+" \t\t\t"+ c9.LOST+"\t\t"+c9.POINTS);
+	System.out.println( c10.TEAM+"\t\t\t"+c10.MP+"\t\t"+c10.WON+" \t\t\t"+ c10.LOST+"\t\t"+c10.POINTS);
+	}
+	
+}
