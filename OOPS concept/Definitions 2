@@ -1,0 +1,68 @@
+12,WHAT HAPPENS WHEN WE DECLARE A CLASS AS FINAL ?
+If we declare a class as final then it will not allow any sub class.
+=========================================================================================================================================
+13,WHAT PROPERTIES ARE NOT INHERITED FROM PARENT CLASS TO CHILD CLASS ?
+\Private properties and constructors
+=========================================================================================================================================
+14,WHAT IS METHOD OVERLOADLING ?
+
+The process of writing multiple methods with the same name and different arguments within the same class is known as method overloading.
+Example:
+---------
+Amazon payment module
+IRCTC train search module
+Unlocking a phone (pin, password, pattern, swipe)
+===========================================================================================================================================
+15,WHAT IS ENCAPSULATION ?
+The Process of Binding related data together is known as Encapsulation.
+eg:
+---
+A class is an encapsulation of data members/ VARIABLE and member function /METHODS
+A package is an encapsulation of class and interface
+An rt.jar file is an encapsulation of java executable files
+=============================================================================================================================================
+16,WHAT SI ACCESS MODIFIER / ACCESS SPECIFIER ?
+
+Access Modifiers are used to specify visibility of a member.
+It can be used on a class, methods, static variable and non-static variable.
+Access Modifier can’t be used on local variable.
+If the programmer does not assign any Access Modifier to the member then the JVM will consider “default”. 
+In java 4 types of Access Modifier are there.
+	a. private
+	b. default
+	c. protected
+	d. public
+=============================================================================================================================================
+17,WHAT IS JAVA BEAN CLASS?
+
+The process of writing a public class with default constructor, private data members and public getters and setters is known as Java Bean class.
+It is an example of Encapsulation
+=============================================================================================================================================
+18,WHAT IS METHOD OVERRIDING?
+
+The Process of Changing super class method implementation in the subclass is known as Method Overriding.
+is-a relationship is mandatory to perform overriding.
+While Overriding method name and arguments must be same.
+Example:
+--------
+Upgrade an existing feature
+Update an existing feature
+=============================================================================================================================================
+19,WHAT IS POLYMORPHISM ?
+
+One Object showing different behaviour in different stages of its life
+is known as Polymorphism.
+types:
+Compile time polymorphism
+Run time polymorphism
+compile time polymorphism can be achieved with the help of method overloading and constructor overloading
+ run time polymorphism can be achieved with the help of method overriding
+=============================================================================================================================================
+20, WHY COMPILE TIME POLYMORPHISM IS CALLED AS STATIC POLYMORPHISM?
+
+Once the Compiler takes the binding decision then it can’t be changed across the program that is why  compile time polymorphism is called as static polymorphism.
+=============================================================================================================================================
+21,WHY RUN TIME POLYMORPHISM IS CALLED DYNAMIC POLYMORPHISM ?
+
+Once the JVM takes the binding decision then it can be changed across the program based on the reference type that is why  runtime polymorphism is called as dynamic polymorphism.
+=============================================================================================================================================
