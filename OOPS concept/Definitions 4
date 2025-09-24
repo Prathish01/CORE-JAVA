@@ -1,0 +1,15 @@
+32,WHAT IS UPCASTING ?
+Assigning subclass object (or) subclass reference variable to superclass reference variable is known as upcasting.
+=================================================================================================================================
+33,WHAT IS DOWNCASTING ?
+Assigning superclass object (or) superclass reference variable to subclass reference variable is known as downcasting.
+=================================================================================================================================
+34,WHEN DO WE GET CLASSCASTEXCEPTION ?
+Whenever we try to perform downcasting directly without doing upcasting we will end up getting ClassCastException.
+=================================================================================================================================
+35,WHAT HAPPENSWE DECLARE A METHOD AS FINAL ?
+If we declare a method as final then that method can’t be overridden in the sub class.
+=================================================================================================================================
+36,WHAT HAPPENS WE DECLARE A VARIABLE AS FINAL ?
+If we declare a variable as final then that variable can’t be reinitialized.
+=================================================================================================================================
