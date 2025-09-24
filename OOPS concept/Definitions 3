@@ -1,0 +1,52 @@
+22,WHAT IS ABSTRACT CLASS ?
+A class which is declared using "abstract" keyword is known as abstract class.
+if a class contains at least one abstract method then it is mandatory to declare the class as abstract.
+==================================================================================================================================================================
+23,CAN WE DECLARE ABSTRACT CLASS AS FINAL ?
+No it is not possible to declare an abstract class as final because a final class will not allow any sub-class but for abstract class it is mandatory to have a 
+sub class in order to provide implementation.
+==================================================================================================================================================================
+24,WHAT IS INTERFACE ?
+An interface is a java definition block which contains different variables /       data members and methods/member function.
+every variable is by default static and final.
+every method is by default public and abstract.
+==================================================================================================================================================================
+25,WHAT IS ABSTRACTION ?
+The process of hiding the implementation and giving only the functionality to the user is known as Abstraction.
+In java Abstraction can be achieved in 2 ways,
+using Abstract class
+using Interface
+Interface is recommended because we can achieve 100% abstraction.
+==================================================================================================================================================================
+26,WHY DO WE USE INSTANCE OF KEYWORD?
+It is a keyword used to check if an object contains the properties of the specified class.
+==================================================================================================================================================================
+27,WHAT IS TYPECASTING ?
+The process of converting one type of information to another type is known as typecasting.
+types:
+-------
+Data typecasting
+class typecasting
+==================================================================================================================================================================
+28,WHAT IS DATA TYPECASTING ?
+The process of converting one primitive type data to another primitive type
+is known as data typecasting
+types:
+------
+Widening
+Narrowing
+==================================================================================================================================================================
+29,WHAT IS WIDENING ?
+The process of converting smaller primitive type data to larger primitive type is known as widening.
+==================================================================================================================================================================
+30,WHAT IS NARROWING ?
+The process of converting larger primitive type data to smaller primitive type is known as widening.
+==================================================================================================================================================================
+31, WHAT IS CLASS TYPE CASTING ?
+The process of converting one class type information to another class type is known as class typecasting.
+to perform class typecasting IS-A relationship is mandatory.
+types:
+------
+Upcasting
+Down casting
+==================================================================================================================================================================
