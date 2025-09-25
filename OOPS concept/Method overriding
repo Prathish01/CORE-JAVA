@@ -1,0 +1,28 @@
+package methodoverriding;
+class googlepay
+{
+	public void qrscan()
+	{
+		System.out.println("QR scan done successfully");
+	}
+    public void banktransfer()
+{
+	System.out.println("bank transfer done successfully");
+	}
+    public void number()
+    {
+    	System.out.println("payment done successfully");
+    }
+}
+
+package methodoverriding;
+
+public class mainofpayment {
+	public static void main(String []args)
+	{
+		googlepay g1=new googlepay();
+		g1.qrscan();
+		g1.banktransfer();
+		g1.number();
+	}
+}
