@@ -17,8 +17,6 @@ map.put(null, 3);
 //System.out.println(map.keySet());
 System.out.println(map.entrySet());
 
-
-
 }
 
 }
