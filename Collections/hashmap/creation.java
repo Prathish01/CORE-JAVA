@@ -15,8 +15,6 @@ map.put("hi", "hello");
 map.put(null, 3);
 System.out.println(map);
 
-
-
 }
 
 }
