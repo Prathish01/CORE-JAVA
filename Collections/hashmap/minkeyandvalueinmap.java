@@ -27,6 +27,7 @@ min = entry.getValue();
 minarr = entry.getKey();
 }
 }
+  
 System.out.println(min);
 System.out.println(minarr);
 
