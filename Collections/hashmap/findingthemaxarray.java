@@ -33,6 +33,7 @@ for (Map.Entry<Character, Integer> entry : map.entrySet()) {
 }
 System.out.println(max);
 System.out.println(maxChar);
+    
 }
 
 }
