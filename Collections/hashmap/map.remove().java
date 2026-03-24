@@ -17,8 +17,6 @@ map.remove(null);
 map.remove('a');
 System.out.println(map);
 
-
-
 }
 
 }
