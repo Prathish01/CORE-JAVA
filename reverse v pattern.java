@@ -1,5 +1,6 @@
 package patternproblems;
 
+
 public class upsidev 
 {
 	public static void main(String [] args)
@@ -25,7 +26,7 @@ public class upsidev
 }
 }
 
-output
+output:
 
               *               
              * *              
