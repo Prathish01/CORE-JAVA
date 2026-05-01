@@ -1,5 +1,6 @@
 package patternproblems;
 
+
 public class xpattern 
 {
 public static void main(String [] args)
@@ -40,7 +41,8 @@ System.out.println();
 }
 
 
-output
+output:
+
 *       * 
  *     *  
   *   *   
