@@ -16,9 +16,12 @@ public class main
 {
 public static void main(String [] args)
 {
+
+	
 	System.out.println("creating object");
 	startmethod  s1 = new startmethod();
 	
 	s1.start();
+	
 }
 }
