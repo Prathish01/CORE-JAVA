@@ -5,7 +5,7 @@ public class racecondition extends Thread
 	static synchronized void increment()
 	{
 		count++;
-		
+	
 	}
 static int count = 0;
 public void run()
