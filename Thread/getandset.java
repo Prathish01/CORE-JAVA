@@ -9,7 +9,11 @@ public class getandset1 implements Runnable
         System.out.println("Priority after change (child thread): " + Thread.currentThread().getPriority());
     }
 
+
+    
     public static void main(String[] args)
+
+    
     {
         System.out.println("Default main thread priority: " + Thread.currentThread().getPriority());
         Thread.currentThread().setPriority(1);
@@ -18,5 +22,9 @@ public class getandset1 implements Runnable
         getandset1 ti = new getandset1();
         Thread t1 = new Thread(ti);
         t1.start();
+
+        
     }
+
+    
 }
