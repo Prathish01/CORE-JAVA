@@ -21,5 +21,7 @@ public static void main(String [] args) throws InterruptedException
 	r1.join();
 	r2.join();
 	System.out.println(count);
+
+	
 }
 }
