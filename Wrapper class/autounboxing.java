@@ -14,6 +14,8 @@ Double num1 = 10.56;
 double b = num1;
 System.out.println(b);
 
+
+  
 }
 }
 
