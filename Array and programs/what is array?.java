@@ -1,13 +1,19 @@
  WHAT IS ARRAY? SYNTAX FOR CREATING ARRAY?. 
 • An Array is a collection of finite set of homogenous data. 
+  
 o Finite – fixed in size 
+  
 o Homogenous – same type of value 
+ 
 • Whenever the programmer wants to store multiple values of the same 
 type into the memory then instead of creating multiple variables of same 
 type they can make use of array concept. 
+ 
 • If we try to insert / print value from an index which is not present then 
 the JVM will throw RTE. (Array index out of bounds exception). 
+ 
 • Syntax for finding size / length of the array, 
+ 
 * arrayname.length 
 Syntax for creating array: 
 Approach 1: 
