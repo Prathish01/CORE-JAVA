@@ -10,15 +10,22 @@ public class a {
     public void setx(String x) {
         this.x = x;
     }
+    
 }
+
 package datahiding2;
+
 
 public class b 
 {
+    
 public static void main(String [] args)
+    
 {
+    
 a a1 = new a();
 a1.setx("hello");
 System.out.println(a1.getx());
+    
 }
 }
