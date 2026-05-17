@@ -4,6 +4,8 @@ public class a
 {
 public static void main(String[] args) 
 {
+
+	
 	Scanner scn = new Scanner(System.in);
 	int[] a1 = {20,30,40,50};
 	System.out.println("enter value");
@@ -15,5 +17,6 @@ public static void main(String[] args)
 			System.out.println(i);
 		}
 	}
+	
 }
 }
