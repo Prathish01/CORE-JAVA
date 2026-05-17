@@ -2,23 +2,34 @@ package datahiding5;
 
 public class apple 
 {
+	
 private int x = 10;
 private String y = "messi";
 public int getx()
+	
 {
+	
 	return this.x;
 }
+	
 public String display()
 {
+	
 	return this.y;
+	
 }
+	
 public void setx(int x)
+	
 {
+	
 this.x = x;
 }
+	
 public void display(String y)
 {
 this.y=y;	
+	
 }
 }
 
