@@ -3,6 +3,7 @@ package hashset;
 import java.util.HashSet;
 import java.util.Set;
 
+
 public class arraytohasset 
 {
 public static void main(String [] args)
@@ -19,5 +20,6 @@ for(Integer as : arr)
 set.add(as);	
 }
 System.out.println(set);
+  
 }
 }
