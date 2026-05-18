@@ -11,7 +11,9 @@ public class linkedlisttoset
 {
 public static void main(String [] args)
 {
+  
 Stack<Integer> list = new Stack<Integer>();
+  
 list.add(10);
 list.add(20);	
 list.add(30);	
@@ -29,5 +31,6 @@ System.out.println(list);
 System.out.println("converting this arraylist into set");
 Set<Integer> set = new HashSet<Integer>(list);
 System.out.println(set);
+  
 }
 }
