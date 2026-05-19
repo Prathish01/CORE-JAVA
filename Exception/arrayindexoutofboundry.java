@@ -2,14 +2,19 @@ package exception1;
 import java.util.Scanner;
 public class arrayindexoutofboundry 
 {
+	
 public static void main(String [] args)
 {
+	
 	Scanner scn = new Scanner(System.in);
 int[] arr1 = {10,20,30,40,50};
+	
 
 		System.out.println(arr1[5]);
 }
+	
 }
+
 
 
 
