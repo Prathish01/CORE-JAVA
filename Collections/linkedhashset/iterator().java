@@ -4,13 +4,18 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class iterator {
-	public static void main(String [] args)
+public class iterator
 	{
+		
+	public static void main(String [] args)
+		
+	{
+		
 	Set rt = new LinkedHashSet();
 	rt.add("hello");
 	rt.add("world");
 	rt.add("long ball");
+		
 	rt.add("kio");
 	rt.add("hiio");
 	rt.add("messi");
@@ -18,6 +23,7 @@ public class iterator {
 	
 	Iterator itr = rt.iterator();
 	while(itr.hasNext())
+		
 	{
 	System.out.println(itr.next());
 	}
