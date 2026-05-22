@@ -5,13 +5,16 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class listtoarray1 
+	
 {
 public static void main(String [] args)
+	
 {
 	System.out.println("creating list");
 	List<String> list = new LinkedList<String>();
 	list.add("mbappe");
 	list.add("thuram");
+	
 	list.add("dueu");
 	list.add("konate");
 	
@@ -23,7 +26,9 @@ public static void main(String [] args)
 	
 	String[] str = new String[list.size()];
 	list.toArray();
+	
 	for(String er : list)
+		
 	{
 		System.out.println(er);
 	}
