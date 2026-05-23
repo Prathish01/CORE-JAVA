@@ -1,18 +1,24 @@
 package java8;
 
 public interface thetre 
+ 
 {
+ 
  void show();
+ 
 }
 
 
 package java8;
 
-public class adf implements thetre {
+public class adf implements thetre 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+ {
 
-        thetre th = () -> {
+        thetre th = () ->
+         {
             System.out.println("Mankatha is playing in Rohini");
         };
 
