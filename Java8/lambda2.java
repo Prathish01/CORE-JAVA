@@ -1,19 +1,28 @@
 package java8;
 
+
 public interface thetre 
+ 
 {
+ 
  int add(int i,int j);
+ 
 }
 
 package java8;
 
-public class adf implements thetre {
+public class adf implements thetre 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+ {
 
        thetre th = (int i,int j) ->
+        
        {
+        
     	 return i*j  ;
+        
     	   
        };
        
