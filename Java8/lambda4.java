@@ -2,11 +2,15 @@ package java8;
 
 public interface thetre 
 {
+	
 void view (int i);
+	
 }
 
 
+
 package java8;
+
 
 public class adf implements thetre {
 
@@ -15,6 +19,7 @@ public class adf implements thetre {
     	thetre th =(int i) ->
     	{
     		System.out.println("you selected" + i);
+
 			
     		
     	};
