@@ -2,7 +2,9 @@ package java8;
 
 public interface thetre 
 {
+	
 int view (int i,int j);
+	
 }
 
 package java8;
