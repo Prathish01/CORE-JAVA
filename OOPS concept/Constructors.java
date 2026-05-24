@@ -14,14 +14,17 @@ class book
 }
 class mainofbook
 {
+	
 	public static void main (String []args)
 	{
+		
 	book b1=new book("HOW TO BECOME A DEVOLOPER",500,350,"MURALI");
 	book b2=new book("CRICKETER",2000,1245,"SRINIKETH");
 	book b3=new book("CAPTAIN COOL",1500,2643,"NITHISH ROY ");
 	book b4=new book("LEGACY OF CR7",7000,3500,"KAARTHICK");
 	book b5=new book("FOOTBALL AND LEGENDS",5000,3224,"PRATHISH");
 	System.out.println("name\t\t\t\t price\t\t nop\t\t\t Author\t\t\t");
+		
 	System.out.println("------------------------------------------------------------------------------------");
     System.out.println( b1.name+"\t "+b1.price+"\t\t"+b1.nop+" \t\t\t"+ b1.Author);
 	System.out.println("------------------------------------------------------------------------------------");
