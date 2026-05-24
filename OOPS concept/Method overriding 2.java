@@ -4,27 +4,34 @@ class Animal {
     }
 }
 
+
 class Dog extends Animal {
+    
     // Overriding the sound() method
     @Override
     public void sound() {
         System.out.println("Dog barks");
+        
     }
 }
 
 class Cat extends Animal {
+    
     // Overriding the sound() method
     @Override
     public void sound() {
         System.out.println("Cat meows");
+        
     }
 }
 
-public class MethodOverridingExample {
+public class MethodOverridingExample 
+{
     public static void main(String[] args) {
         Animal myAnimal = new Animal(); 
         Animal myDog = new Dog();     
-        Animal myCat = new Cat();       
+        Animal myCat = new Cat();    
+        
         myAnimal.sound();
         myDog.sound();    
         myCat.sound();    
