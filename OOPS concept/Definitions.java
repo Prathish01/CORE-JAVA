@@ -4,6 +4,7 @@ oops stands for Object Oriented Programming System. It is a Programming system t
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2,WHAT IS OBJECT ?
+	
 An object is an entity which has its own states and behaviour. State refers to variables/ data members and behaviour refers to methods/member function.
 Syntax for creating  object : 
 				Classname  referencevariable=new  Classname();
@@ -11,16 +12,19 @@ Syntax for creating  object :
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3,WHAT IS CLASS ?
+	
 A class is a java definition block or a java blueprint which contains different states and behaviour. State refers to variables/data members and behaviour refers to methods/member function.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4,WHAT IS REFERENCE VARIABLE ?
+	
 It is an identifier which is used to refer to the object that is present in the heap memory.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5,WHAT IS CONSTRUCTOR ?
+	
 A constructor is a special method of which will have the same name as that of the class name.
 It will not allow modifiers and return type.
 It will execute automatically when we create object of a class.
@@ -28,12 +32,14 @@ It will execute automatically when we create object of a class.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-6,WHY DO WE USE OCNSTRUCTOR ? 
+6,WHY DO WE USE OCNSTRUCTOR ?
+	
 Constructors are used to create an object and initialize the non-static variables that are present inside the object.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7,WHAT IS INHERITANCE ?
+	
 One class acquiring the properties of another class is known as Inheritance.
 The class from which we acquire the properties is called as super class/parent class/base class.
 One class acquiring the properties of another class is known as Inheritance.
@@ -50,11 +56,13 @@ In java inheritance is of 5 types,
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 9,WHY MULTIPLE INHERITANCE IS NOT ALLOWED IN JAVA ?
+	
 Multiple inheritance causes Diamond ring problem
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 10,WHAT IS CONSTRUCTOR CHAINING ?
+	
 The process of calling one constructor from another constructor is known as Constructor chaining.
 We use and “this ()” and "super ()" for performing Constructor chaining
 This () is used to call one constructor from another constructor within the same class.
@@ -64,5 +72,6 @@ Super () is used to call super class constructor from the sub class.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 11, Which is the super most class in java?
+	
 Object class
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
