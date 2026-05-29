@@ -1,5 +1,6 @@
 package datahiding2;
 
+
 public class a {
     private String x = "hi";
 
@@ -8,6 +9,7 @@ public class a {
     }
 
     public void setx(String x) {
+        
         this.x = x;
     }
     
