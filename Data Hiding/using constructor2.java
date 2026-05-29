@@ -4,18 +4,21 @@ public class employees {
 private int empid;
 private String name;
 private double salary;
+
 	
 public employees(int empid,String name,double salary)
 {
 this.empid =empid;
 	
 this.name = name;
+
 	
 this.salary = salary;
 	
 }
 public int getempid() 
 {
+
 	
 	return empid;
 }
@@ -26,6 +29,7 @@ public String getname()
 	return name;
 }
 	
+	
 public double getsalary() 
 {
 	
@@ -35,8 +39,6 @@ public void setsalary(double salary)
 {
 System.out.println(salary);	
 }
-
-	
 
 
 }
