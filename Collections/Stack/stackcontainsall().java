@@ -16,12 +16,14 @@ public static void main(String [] args)
     list.add("Banana");
     list.add("Cherry");
     list.add("Date");
+	
     
 	Stack sta = new Stack();
 	sta.add(10);
 	sta.add("Apple");
 	sta.add("Cherry");
 	sta.add("Banana");
+	
 	sta.add(66);
 	sta.add("Date");
 	
