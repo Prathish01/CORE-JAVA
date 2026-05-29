@@ -10,10 +10,12 @@ public int getx()
 {
 	
 	return this.x;
+	
 }
 	
 public String display()
 {
+
 	
 	return this.y;
 	
@@ -38,6 +40,7 @@ package datahiding5;
 
 public class ball 
 {
+	
 public static void main(String [] args)
 {
 System.out.println("result")	;
