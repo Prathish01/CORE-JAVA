@@ -2,19 +2,25 @@ package datahidingmarks;
 
 public class students 
 
+	
 {
 private String name;
 private int marks;
+
 	
 public students(String name,int marks)
 {
 	
 this.name = name;
+	
 this.marks = marks;
+
 	
 }
 public String getx()
+	
 {
+
 	
 return this.name;	
 	
@@ -25,6 +31,7 @@ public int getx1()
 return this.marks;	
 	
 }
+	
 public void setx(String name)
 	
 {
