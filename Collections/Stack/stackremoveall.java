@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+
 public class stackdelete 
 {
+	
 public static void main(String [] args)
 {
 	Stack sta = new Stack();
@@ -16,6 +18,7 @@ public static void main(String [] args)
 	sta.add(66);
 	sta.add("arnold");
 	//sta.clear();
+
 	
 	List<String> list1 = new ArrayList<>();
 	list1.add("messi");
