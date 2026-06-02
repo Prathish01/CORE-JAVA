@@ -4,10 +4,15 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+
 public class stringtosettoarray 
+  
 {
+  
 public static void main(String [] args)
+  
 {
+  
 System.out.println("creation of String");
 
 String str = "java is a programming language";
