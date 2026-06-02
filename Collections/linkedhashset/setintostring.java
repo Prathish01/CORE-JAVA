@@ -7,9 +7,13 @@ public class settostring
 {
 public static void main(String [] args)
 {
+  
 System.out.println("creating linked hashset");
+  
 
 Set set = new LinkedHashSet();
+
+  
 //set.add(1);
 set.add("hello");
 set.add("world");
