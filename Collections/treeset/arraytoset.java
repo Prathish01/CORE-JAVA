@@ -3,10 +3,16 @@ package treeset;
 import java.util.Set;
 import java.util.TreeSet;
 
+
 public class arraytoset 
+
+  
 {
+  
 public static void main(String [] args)
+  
 {
+  
   
 int[] arr = {10,20,100,30,40,50};
   
