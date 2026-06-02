@@ -2,11 +2,14 @@ package linkedhashset;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;
+
 import java.util.Set;
+
 
 public class settostring 
 {
 public static void main(String [] args)
+  
 {
 System.out.println("creating linked hashset");
 
