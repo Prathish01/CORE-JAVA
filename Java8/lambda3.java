@@ -3,14 +3,13 @@ package java8;
 public interface thetre 
 
 
- 
 {
+
  
  int add(int i,int j);
  
+ 
 }
-
-
 
 package java8;
 
