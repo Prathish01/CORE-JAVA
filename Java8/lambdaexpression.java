@@ -1,19 +1,19 @@
 package java8;
-
 public interface thetre 
- 
+
 {
- 
+
  void show();
  
 }
 
-
 package java8;
 
 public class adf implements thetre 
+ 
 {
 
+ 
     public static void main(String[] args) 
  {
 
