@@ -8,11 +8,15 @@ public a(int x )
 System.out.println("pincode = " +x);
 System.out.println("hi m1");
 }
+	
 public a(int x,String y)
+	
 {
+	
 System.out.println("pincode = " +x);
 System.out.println("name = " +y);
 System.out.println("hi m2");
+	
 }
 public a(int x,String y,double z)
 {
