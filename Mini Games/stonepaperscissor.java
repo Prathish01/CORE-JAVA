@@ -4,17 +4,12 @@ import java.util.Random;
 public class stonepaperscissor
 	
 {
-	
 public static void main(String [] args)
-	
 {
 	
 Scanner scn = new Scanner(System.in);
-	
 Random rand = new Random();
-	
 String[] choice = {"stone","paper","scissor"};
-	
 System.out.println("enter choice");
 
 String my = scn.next() .toLowerCase();
