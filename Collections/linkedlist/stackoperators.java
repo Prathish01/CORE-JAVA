@@ -1,9 +1,6 @@
 package collections;
-
 import java.util.LinkedList;
-
 import com.sun.jdi.Value;
-
 import company.intern;
 
 public class linkedlist 
