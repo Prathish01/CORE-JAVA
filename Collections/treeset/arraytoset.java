@@ -1,14 +1,8 @@
 package treeset;
-
 import java.util.Set;
 import java.util.TreeSet;
-
-
 public class arraytoset 
-
-  
 {
-  
 public static void main(String [] args)
   
 {
