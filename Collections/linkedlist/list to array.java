@@ -5,10 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class listtoarray1 
-	
 {
 public static void main(String [] args)
-	
 {
 	System.out.println("creating list");
 	List<String> list = new LinkedList<String>();
