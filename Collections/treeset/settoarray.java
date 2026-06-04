@@ -1,13 +1,9 @@
 package treeset;
-
 import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
-
 public class settoaray 
 {
-
-
 public static void main(String [] args)
 {
   
