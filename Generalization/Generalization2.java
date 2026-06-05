@@ -1,15 +1,19 @@
 package laptop;
 
 abstract public class laptop 
+	
 {
 abstract public void brand();
 abstract public void price();
 abstract public void ram();
 abstract public void storage();
+	
 
 }
 
+
 package laptop;
+
 
 public class asus extends laptop
 {
