@@ -8,12 +8,17 @@ public void batterylife();
 }
 
 
+
 package smartphone;
 
+
 public class samsung implements smartphone
+	
 {
+	
 public void model()
 {
+	
 	System.out.println("model is samsung s23");
 }
 public void price()
