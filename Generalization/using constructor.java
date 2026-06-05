@@ -5,10 +5,18 @@ abstract public class employees
  String name;
  double salary;
 
+
+	
 public employees(String name,double salary)
+	
 {
+	
 this.name = name;
+
+	
 this.salary = salary;
+
+	
 }
 
 }
