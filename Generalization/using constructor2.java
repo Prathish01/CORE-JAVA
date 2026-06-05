@@ -2,15 +2,24 @@ package vehicle;
 
 abstract public class vehicle 
 {
+	
  String brand;
+	
  int no;
+	
  int topspeed;
+	
 
 public  vehicle(String brand,int no,int topspeed)
+	
 {
+	
 	this.brand = brand;
+	
 	this.no = no;
+	
 	this.topspeed = topspeed;
+	
 	}
 }
 
