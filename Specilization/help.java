@@ -4,12 +4,18 @@ public class help
 {
 public void get(manager m)
 {
+  
 if(m instanceof pep)
+  
 {
+  
 pep p = (pep)m;
+  
 p.team();
 p.league();
+  
 p.playstyle();
+  
 }
 else if(m instanceof klopp)
 {
