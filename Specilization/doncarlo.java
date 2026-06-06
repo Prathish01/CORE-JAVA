@@ -14,9 +14,11 @@ public class doncarlo extends manager{
 		
 	}
 
+	
 	@Override
 	public void playstyle() {
 		System.out.println("quick counter + longball");
 	}
 
+	
 }
