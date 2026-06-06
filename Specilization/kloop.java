@@ -3,15 +3,20 @@ package specilizationnew;
 public class klopp extends manager
 {
 
+	
 	@Override
 	public void team() {
 		System.out.println("he managed liverpool");
 		
+		
 	}
+	
 
 	@Override
 	public void league() {
+		
 		System.out.println("in premier league");
+		
 		
 	}
 
