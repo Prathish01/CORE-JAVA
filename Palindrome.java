@@ -7,14 +7,18 @@ class test4
         String s=scn.nextLine(); 
         print(s); 
     } 
+	   
     public static void print(String s) 
     { 
-        char ch=' '; 
+       
+		char ch=' '; 
         String rev=""; 
         for(int i=s.length()-1; i>=0; i--){ 
             ch=s.charAt(i); 
             rev=rev+ch; 
-        } 
+        
+		
+		} 
  
         if (s.equals(rev)) { 
             System.out.println(s + " is palindrome"); 
