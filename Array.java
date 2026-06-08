@@ -7,11 +7,13 @@ class exampletest{
         System.out.println("Enter the number of elements in the array: ");
         int n = scanner.nextInt();
         int[] array = new int[n];
+
         
         System.out.println("Enter " + n + " integers:");
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
         }
+
         
         System.out.println("Enter the value to find: ");
         
