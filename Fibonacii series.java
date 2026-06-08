@@ -7,6 +7,9 @@ public class fibonacii {
         
         print(num); 
     } 
+
+
+
     
     public static void print(int num){ 
     
@@ -14,6 +17,7 @@ public class fibonacii {
         int n2=1; 
         
         int n3=n1+n2; 
+
         
         while (num>0) { 
             System.out.println(n1); 
@@ -27,3 +31,5 @@ public class fibonacii {
         } 
     } 
 }
+
+
