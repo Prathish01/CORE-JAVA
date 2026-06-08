@@ -4,7 +4,9 @@ public class test {
         Scanner scn=new Scanner(System.in); 
         System.out.println("Enter a number to find perfect or not "); 
         int num=scn.nextInt(); 
+        
         print(num); 
+        
     } 
     public static void print(int num) 
     { 
