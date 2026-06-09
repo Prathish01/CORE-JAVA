@@ -3,8 +3,10 @@ class a
 
 public a (int x) 
 {
+	
 	System.out.println("hello x");
 	System.out.println(x);
+	
 }
 }
 class b
