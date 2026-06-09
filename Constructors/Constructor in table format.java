@@ -5,14 +5,18 @@ String name;
 String designation;
 String cname;
 
+  
 
 public employee (int id,String name,String designation,String cname)
 {
+  
 this.id =id;
 this.name=name;
+  
 this.designation=designation;
 this.cname=cname;
 
+  
 }
 public int eheigth()
 {
