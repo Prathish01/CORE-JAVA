@@ -7,15 +7,19 @@ class football
 	int POINTS;
 	public football(String TEAM,int MP,int WON,int LOST,int POINTS)
 	{
+		
 		this.TEAM=TEAM;
 		this.MP=MP;
 		this.WON=WON;
 		this.LOST=LOST;
         this.POINTS=POINTS;
+		
 	}
 }
 class mainoffootball
+	
 {
+	
 	public static void main (String []args)
 	{
 	football f1=new football("MANCHESTER CITY",31,23,7,69);
