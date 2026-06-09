@@ -10,6 +10,8 @@ class book
 		this.price=price;
 		this.nop=nop;
 		this.Author=Author;
+
+		
 	}
 }
 class mainofbook
