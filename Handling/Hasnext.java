@@ -5,8 +5,10 @@ public class hashnex
 	
 {
 	
+
 	
 public static void main (String [] args) throws FileNotFoundException
+
 	
 {
 	
