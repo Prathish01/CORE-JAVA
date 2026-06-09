@@ -13,8 +13,10 @@ class cricket
 		this.LOST=LOST;
         this.POINTS=POINTS;
 		
+		
 	}
 }
+
 class mainofcricket
 	
 {
@@ -38,6 +40,7 @@ class mainofcricket
 	cricket c10=new cricket("RAJASTAN ROYALS",10,2,8,4);
 		
 	System.out.println("TEAM\t\t\t\t MP\t\t WON\t\t\t LOST\t\t POINTS\t\t");
+
 		
 	System.out.println("----------------------------------------------------------------------------------------------");
     System.out.println( c1.TEAM+"\t\t\t"+c1.MP+"\t\t"+c1.WON+" \t\t\t"+ c1.LOST+"\t\t"+c1.POINTS);
