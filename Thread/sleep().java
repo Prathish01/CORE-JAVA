@@ -6,14 +6,19 @@ public void run()
 {
 for(int i = 1;i<=10;i++)
 {
-	
 try
 {
-Thread.sleep(2000);	
+	
+Thread.sleep(2000);
+	
 }
+	
 catch(Exception e)
+	
 {
-e.printStackTrace();	
+	
+e.printStackTrace();
+	
 }
 System.out.println(i);
 }
