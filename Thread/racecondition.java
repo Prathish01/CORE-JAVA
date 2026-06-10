@@ -9,10 +9,10 @@ for(int i =1;i<=1000;i++)
 {
 	count++;
 }
-
 }
-
+	
 public static void main(String [] args) throws InterruptedException
+	
 {
 	racecondition r1 = new racecondition();
 	racecondition r2 = new racecondition();
