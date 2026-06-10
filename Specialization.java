@@ -10,12 +10,10 @@ public class cat implements animal
 	}
 
 }
-
 package specialization;
 
 public class dog implements animal
 {
-
 	@Override
 	public void eat() {
 		System.out.println("idly");
@@ -32,9 +30,7 @@ public class rat implements animal
 	public void eat() {
 		System.out.println("cheese");		
 	}
-
 }
-
 package specialization;
 
 public class Mainclass 
