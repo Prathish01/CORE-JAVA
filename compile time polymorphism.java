@@ -6,13 +6,22 @@ public void unlock()
 {
 System.out.println("phone unlocked by swiping");
 }
+	
 public void unlock(int pin)
 {
+	
 System.out.println("phone unlocked by using pin");	
+
+	
 }
+	
 public void unlock(String password)
+
+	
 {
+	
 	System.out.println("phone unlocked by using password");
+	
 }
 }
 
