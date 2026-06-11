@@ -3,11 +3,13 @@ package hashset;
 import java.util.HashSet;
 import java.util.Set;
 
-
 public class arraytohasset 
 {
+  
 public static void main(String [] args)
+  
 {
+  
 System.out.println("creating array");
 Integer[] arr = {10,20,30,40,50};
 
