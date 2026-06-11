@@ -7,10 +7,14 @@ import java.util.List;
 import java.util.Set;
 import java.util.Stack;
 
+
 public class linkedlisttoset 
+  
 {
+  
 public static void main(String [] args)
 {
+  
   
 Stack<Integer> list = new Stack<Integer>();
   
