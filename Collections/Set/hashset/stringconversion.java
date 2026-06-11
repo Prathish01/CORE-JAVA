@@ -4,10 +4,11 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-
 public class hasstring 
 {
+    
     public static void main(String [] args)
+    
     {
         
         String str = "java is an programming language";
