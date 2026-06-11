@@ -7,11 +7,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-
 public class linkedlisttoset 
 {
+  
 public static void main(String [] args)
 {
+  
 List<Integer> list = new LinkedList<Integer>();
   
 list.add(10);
