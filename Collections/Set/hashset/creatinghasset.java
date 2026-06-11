@@ -5,11 +5,9 @@ import java.util.Set;
 
 public class creatinghashset 
 {
-
   
 public static void main(String [] args)
 {
-
   
 System.out.println("creating set");	
   
