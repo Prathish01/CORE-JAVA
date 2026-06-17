@@ -2,10 +2,14 @@ package str;
 import java.util.Scanner;
 public class a 
 {
+	
 public static void main(String [] args)
+	
 {
+	
 Scanner scn = new Scanner(System.in);
 System.out.println("enter string name");
+	
 String s1 = scn.next();
  char ch = ' ';
 print(s1,ch);
