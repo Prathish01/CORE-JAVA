@@ -6,8 +6,10 @@ public class text12 {
         String s=scn.nextLine(); 
         print(s); 
     } 
+
     public static void print(String s) 
     { 
+
         char ch=' '; 
         for(int i=0; i<= s.length()-1; i++){ 
             ch=s.charAt(i); 
