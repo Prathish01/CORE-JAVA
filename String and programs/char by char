@@ -6,6 +6,8 @@ public class text13 {
         String s=scn.nextLine(); 
         print(s); 
     } 
+
+
     public static void print(String s) 
     { 
         char ch=' '; 
