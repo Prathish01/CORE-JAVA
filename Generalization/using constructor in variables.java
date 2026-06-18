@@ -3,13 +3,9 @@ package animal;
  public class animal 
 {
 String sound;
-	
 int legs;
-	
 public animal(String sound,int legs)
-	
 {
-	
 this.sound = sound;
 this.legs= legs;
 
