@@ -7,15 +7,10 @@ public void price();
 public void batterylife();
 }
 
-
-
 package smartphone;
 
-
 public class samsung implements smartphone
-	
 {
-	
 public void model()
 {
 	
