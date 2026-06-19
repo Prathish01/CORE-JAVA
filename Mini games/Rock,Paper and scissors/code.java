@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main() {
+		
 		// TODO Auto-generated constructor stub
 		Scanner scanner =new Scanner(System.in);
 		Random random = new Random();
@@ -14,6 +15,7 @@ public class Main {
 		String playerChoice;
 		String computerChoice;
 		String playAgain = "yes";
+		
 		
 		System.out.println("Enter your move (rock, paper, scissors):");
 		playerChoice = scanner.nextLine().toLowerCase();
