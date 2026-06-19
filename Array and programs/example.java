@@ -4,15 +4,21 @@ public class text {
         Scanner scn =new Scanner(System.in); 
         System.out.println("enter a size"); 
         int size=scn.nextInt(); 
+
         
         int[] a1= new int[size]; 
         
+        
         System.out.println("enter the values"); 
         for(int i=0; i <=a1.length-1; i++) 
+
             
         { 
+
             
             a1[i]=scn.nextInt(); 
+
+            
         } 
         
         System.out.println("---result---"); 
