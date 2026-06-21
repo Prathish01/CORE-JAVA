@@ -15,6 +15,8 @@ public class upsidev
 	   for(int j=1;j<=n*2;j++)
 	   {
 		   if(j== n-i+1 || j==n+i-1)
+
+			   
 		   {
 			   System.out.print("*");
 		   }
@@ -29,6 +31,7 @@ public class upsidev
    }
 }
 }
+
 
 output:
 
