@@ -16,8 +16,6 @@ int[] arr1 = {10,20,30,40,50};
 }
 
 
-
-
 output
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
 	at exception1.arrayindexoutofboundry.main(arrayindexoutofboundry.java:10)
