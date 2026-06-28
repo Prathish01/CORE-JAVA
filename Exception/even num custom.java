@@ -11,6 +11,8 @@ System.out.println("enter num");
 	
 int num = scn.nextInt();
 
+
+	
 if(num%2==0)
 {
 	System.out.println(" even number " +num);
