@@ -11,7 +11,6 @@ super(message)	;
 }
 }
 
-
 package customisedexception;
 
 public class NotAnEvenNumberException extends RuntimeException 
