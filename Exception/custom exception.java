@@ -8,6 +8,8 @@ public static void main(String [] args)
 String din = "chapati";
 	
 Scanner scn = new Scanner(System.in);
+
+
 	
 System.out.println("enter dinner");
 	
