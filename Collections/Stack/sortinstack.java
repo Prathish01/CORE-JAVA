@@ -4,10 +4,13 @@ import java.util.Collections;
 import java.util.Stack;
 
 public class sort 
+	
 {
+	
 public static void main(String [] args)
 	
 {
+	
 	Stack sta = new Stack();
 	
 	sta.add(10);
