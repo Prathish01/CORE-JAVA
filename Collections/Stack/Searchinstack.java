@@ -5,9 +5,13 @@ import java.util.List;
 import java.util.Stack;
 
 
+
+
 public class stacksearch 
 {
+	
 public static void main(String [] args)
+	
 {
 	
 	Stack sta = new Stack();
