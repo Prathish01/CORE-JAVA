@@ -3,16 +3,9 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.random.*;
 public class guessnumber 
-	
 {
-
-	
 public static void main(String [] args)
-
-	
 {
-
-	
 Scanner scn = new Scanner(System.in);
 Random rand = new Random();
 int compno = rand.nextInt(10)+1;
