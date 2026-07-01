@@ -9,9 +9,11 @@ System.out.println("pincode = " +x);
 System.out.println("hi m1");
 }
 	
+	
 public a(int x,String y)
 	
 {
+	
 	
 System.out.println("pincode = " +x);
 System.out.println("name = " +y);
