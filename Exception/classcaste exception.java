@@ -7,12 +7,7 @@ public void ab()
 {
   
 System.out.println("hi ab");	
-}
-
-
-
-
-  
+} 
 }
 
 package cast;
