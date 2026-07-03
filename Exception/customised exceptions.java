@@ -10,10 +10,7 @@ final int blevel = 20;
 System.out.println("enter batterylevel");
 int level = scn.nextInt();
 if(level<=blevel)
-
-	
 {
-	
 System.out.println("battery level" +level);
 throw new BatteryLowException("plug in to charge");
 
