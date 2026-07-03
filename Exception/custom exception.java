@@ -3,13 +3,10 @@ import java.util.Scanner;
 public class main 
 {
 public static void main(String [] args)
-{
-	
+{	
 String din = "chapati";
 	
 Scanner scn = new Scanner(System.in);
-
-
 	
 System.out.println("enter dinner");
 	
@@ -19,7 +16,6 @@ if(dinner.equals(din))
 	System.out.println("Dinner = " + dinner);
 	
 throw new YummyDinnerException("chapati");
-
 }
 else
 {
