@@ -1,15 +1,14 @@
 package customisedexception;
 
-public class EvenNumberException extends RuntimeException
-    
+public class EvenNumberException extends RuntimeException    
 {
 public EvenNumberException(String message)
-    
 {
 super(message)	;
     
 }
 }
+
 
 package customisedexception;
 
