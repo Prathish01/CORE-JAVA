@@ -6,9 +6,6 @@ public class mainsd
 public static void main(String [] args)
 {
 try
-
-  
-  
 {
 throw new IOException("input/output exception");	
   
@@ -21,6 +18,5 @@ System.out.println(e.toString());
   
 System.out.println("start");
 System.out.println("end");
-  
 }
 }
