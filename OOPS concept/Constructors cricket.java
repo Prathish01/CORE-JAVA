@@ -12,8 +12,6 @@ class cricket
 		this.WON=WON;
 		this.LOST=LOST;
         this.POINTS=POINTS;
-		
-		
 	}
 }
 
