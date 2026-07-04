@@ -5,13 +5,13 @@ class book
 	int nop;
 	String Author;
 	public book(String name,int price,int nop,String Author)
+	
 	{
+		
 		this.name=name;
 		this.price=price;
 		this.nop=nop;
 		this.Author=Author;
-
-		
 	}
 }
 class mainofbook
