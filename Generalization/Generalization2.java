@@ -1,6 +1,8 @@
 package laptop;
 
+
 abstract public class laptop 
+
 	
 {
 	
