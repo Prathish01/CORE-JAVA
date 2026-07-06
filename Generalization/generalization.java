@@ -2,6 +2,7 @@ package smartphone;
 
 public interface smartphone 
 {
+	
 public void model();
 public void price();
 public void batterylife();
