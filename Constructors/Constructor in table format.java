@@ -5,8 +5,6 @@ String name;
 String designation;
 String cname;
 
-  
-
 public employee (int id,String name,String designation,String cname)
 {
   
