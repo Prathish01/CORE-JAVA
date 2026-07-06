@@ -5,6 +5,7 @@ class football
 	int WON;
 	int LOST;  
 	int POINTS;
+	
 	public football(String TEAM,int MP,int WON,int LOST,int POINTS)
 	{
 		
